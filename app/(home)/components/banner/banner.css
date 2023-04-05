@@ -1,0 +1,21 @@
+.bannerHome {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 64em) {
+    .containerHome {
+        display: flex;
+        align-items: center;
+        padding: 0 4%;
+    }
+
+    .banner-home {
+        width: 60%;
+    }
+
+    .info-home {
+        width: 40%;
+        padding: 2%;
+    }
+}

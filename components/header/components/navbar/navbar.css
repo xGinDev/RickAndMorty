@@ -1,4 +1,13 @@
-li {
-    color: #F0F2EB;
-    list-style: none;
+.menu-links {
+    display: flex;
+    gap: 10px;
+}
+
+.LinkMenu {
+    text-decoration: none;
+}
+
+.LinkMenu:hover {
+    border-bottom: 1px solid #A7CB54;
+    transition: all 1s ease-out;
 }
