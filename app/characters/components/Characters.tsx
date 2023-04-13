@@ -33,7 +33,7 @@ function MarvelCharacters() {
 
   return (
     <>
-      <div className="">
+      <div className="container-change-layout">
         <button
           onClick={() => {
             handleGridOneButton();

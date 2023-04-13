@@ -41,8 +41,11 @@
         flex-direction: row;
     }
 
-    /* .imgCharacters {
-        width: 150px !important;
-        height: auto;
-    } */
+    .container-change-layout {
+        display: none;
+    }
+
+    .container-info {
+        align-items: flex-start;
+    }
 }

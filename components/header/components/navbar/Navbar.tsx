@@ -10,11 +10,7 @@ const Navbar = () => {
     <nav>
       <div className="menu-links">
         {PAGE_SECTIONS.map((section: NavBar) => (
-          <Link
-            key={section.id}
-            href={`/${section.route}`}
-            className="LinkMenu"
-          >
+          <Link key={section.id} href={`${section.route}`} className="LinkMenu">
             {section.title}
           </Link>
         ))}
