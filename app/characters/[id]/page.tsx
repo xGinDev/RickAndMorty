@@ -35,11 +35,11 @@ export default function InfoCharacter({ params }: any) {
 
   return (
     <>
-      <div className="container-character-info">
-        <Image src={image} alt={name} width={100} height={100} />
-        <p className="name-character">{name}</p>
-        <p className="species">{species}</p>
-        <p className="status">{status}</p>
+      <div className="w-2/5 rounded-2xl m-auto p-4 bg-green-50 grid items-center justify-center gap-12">
+        <Image src={image} alt={name} width={300} height={300} />
+        <p className="name-character text-black">Name: {name}</p>
+        <p className="species text-black">Specie: {species}</p>
+        <p className="status text-black">Status: {status}</p>
       </div>
     </>
   );

@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
     font-family: 'rickandmorty';
     src: url("../public/fonts/get_schwifty.ttf") format('truetype');
